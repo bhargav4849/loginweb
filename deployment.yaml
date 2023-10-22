@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: ratings-web
-        image: acrwebsite.azurecr.io/loginwebimage:__tag__ # IMPORTANT: update with your own repository
+        image: bhargavrdy/jenkinsimage:latest # IMPORTANT: update with your own repository
         imagePullPolicy: Always
         ports:
         - containerPort: 8080 # the application listens to this port
