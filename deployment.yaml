@@ -27,3 +27,16 @@ spec:
           limits: # maximum resources allocated
             cpu: 500m
             memory: 512Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ratings-web
+spec:
+  selector:
+    app: ratings-web
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8080
+  type: LoadBalancer
