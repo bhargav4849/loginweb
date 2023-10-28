@@ -7,7 +7,7 @@
     </div>
     <div class="row at-row flex-center flex-middle">
       <div class="col-lg-6">
-        <img src="/static/img/msft_logo.png">
+        <img src="/static/img/">
       </div>
     </div>
     <div class="row at-row flex-center flex-middle">
